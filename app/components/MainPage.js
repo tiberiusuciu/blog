@@ -11,6 +11,7 @@ class MainPage extends Component {
 		return (
 			<div className={styles.MainPageLayout}>
 				<h1>Test!</h1>
+				<p>This is a paragraph</p>
 			</div>
 		)
 	}
