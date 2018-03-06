@@ -1,34 +1,20 @@
-/* :local(.MainPageLayout) {
-	height: 100vh;
+:local(.mainRowStyling) {
+	margin: 0px;
+	padding: 0px;
+}
+
+:local(.singlePostStyling) {
+	display: block;
 	width: 100%;
-	font-family: Roboto, sans-serif;
+	height: 150px;
 }
 
-:local(.TerminalLayout) {
-	background-color: black;
-	color: white;
-	display: inline-block;
-	height: 100vh;
+:local(.noPadding) {
 	padding: 0px;
 }
 
-:local(.InformationLayout) {
-	padding: 0px;
-	display: inline-block;
+:local(.postList) {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 	height: 100vh;
-}
-
-:local(.CanvasLayout) {
-	height: 50vh;
-	background-color: royalblue;
-	color: white;
-}
-
-:local(.DetailsBox) {
-	height: 50vh;
-	background-color: gold;
-} */
-
-:local(.band) {
-	text-align: center;
 }
