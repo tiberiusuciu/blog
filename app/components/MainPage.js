@@ -9,9 +9,17 @@ import styles from '../styles/MainPage.css';
 class MainPage extends Component {
 	render() {
 		return (
-			<div className={styles.MainPageLayout}>
-				<h1>Test!</h1>
-				<p>This is a paragraph</p>
+			<div className="row">
+				<div className="col">
+					sdf
+				</div>
+				<div className={"col-8 " + styles.band}>
+					<h1>Test!</h1>
+					<p>This is a paragraph</p>
+				</div>
+				<div className="col">
+					dsf
+				</div>
 			</div>
 		)
 	}
