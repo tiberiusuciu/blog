@@ -4,7 +4,7 @@ import SinglePost from './SinglePost';
 
 import styles from '../styles/MainPage.css';
 
-class MainPage extends Component {
+class PostList extends Component {
 	render() {
 		return (
 			<div className={"row " + styles.postList + " " + styles.mainRowStyling}>
@@ -20,4 +20,4 @@ class MainPage extends Component {
 	}
 };
 
-export default MainPage;
+export default PostList;

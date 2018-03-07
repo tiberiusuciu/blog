@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import styles from '../styles/MainPage.css';
 
-class MainPage extends Component {
+class SinglePost extends Component {
 	render() {
 		return (
 			<div className={"row " + styles.singlePostStyling + " " + styles.mainRowStyling}>
@@ -12,4 +12,4 @@ class MainPage extends Component {
 	}
 };
 
-export default MainPage;
+export default SinglePost;
