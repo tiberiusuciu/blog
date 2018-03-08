@@ -30,7 +30,30 @@
 	z-index: 1;
 }
 
+
 :local(.navButton) {
 	font-size: 12px;
-	line-height: 48px;
+	line-height: 54px;
+	color: black;
+	background-color: white;
+}
+
+:local(.navButton:hover) {
+	color: #0AF;
+	font-weight: bold;
+	background-color: #00000004;
+	cursor: pointer;
+}
+
+:local(.navButtonSection) {
+	border-bottom: 1px solid black;
+}
+
+:local(.theWordOf) {
+	font-size: 12px;
+}
+
+:local(.tiberius) {
+	font-weight: bold;
+	font-size: 24px;
 }

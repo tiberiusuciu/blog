@@ -7,13 +7,12 @@ class NavigatorBar extends Component {
 		return (
 			<div className={"row " + styles.navigatorBar + " " + styles.mainRowStyling}>
         <div className={"col " + styles.noPadding}></div>
-				<div className={"col-8 align-self-center " + styles.noPadding}>
+				<div className={"col-8 align-self-center " + styles.noPadding + " " + styles.navButtonSection}>
           <div className={"row " + styles.mainRowStyling}>
             <div className={"col " + styles.navButton}>ABOUT</div>
             <div className={"col " + styles.navButton}>IMAGES</div>
             <div className={"col " + styles.navButton}>EVENT</div>
-            <div className={"col-4"}>
-              <h1>TIBERIUS</h1>
+            <div className={"col-4"}><div className={styles.theWordOf}>The Word Of</div><div className={styles.tiberius}>TIBERIUS</div>
             </div>
             <div className={"col " + styles.navButton}>GAMES</div>
             <div className={"col " + styles.navButton}>DEV</div>
