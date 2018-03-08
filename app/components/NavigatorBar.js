@@ -12,7 +12,7 @@ class NavigatorBar extends Component {
             <div className={"col " + styles.navButton}>ABOUT</div>
             <div className={"col " + styles.navButton}>IMAGES</div>
             <div className={"col " + styles.navButton}>EVENT</div>
-            <div className={"col-4"}><div className={styles.theWordOf}>The Word Of</div><div className={styles.tiberius}>TIBERIUS</div>
+            <div className={"col-4 " + styles.hoverAnimation}><div className={styles.theWordOf}>The Word Of</div><div className={styles.tiberius}>TIBERIUS</div>
             </div>
             <div className={"col " + styles.navButton}>GAMES</div>
             <div className={"col " + styles.navButton}>DEV</div>

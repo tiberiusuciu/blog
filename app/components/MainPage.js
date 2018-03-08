@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import PostList from './PostList';
+import DashBoard from './DashBoard';
 import NavigatorBar from './NavigatorBar';
 
 import styles from '../styles/MainPage.css';
@@ -8,13 +9,13 @@ import styles from '../styles/MainPage.css';
 class MainPage extends Component {
 	render() {
 		return (
-			<div className={"row " + styles.mainRowStyling}>
+			<div className={"row " + styles.mainRowStyling + " " + styles.mainBody}>
 				<NavigatorBar />
 				<div className={"col-12 " + styles.noPadding}>
 				<div className={"row " + styles.mainRowStyling + " " + styles.dashboardBlock}>
 					<div className={"col-12 " + styles.noPadding}>
 						<div className={"row " + styles.mainRowStyling}>
-							<div>This is a test</div>
+							<DashBoard />
 						</div>
 					</div>
 				</div>
