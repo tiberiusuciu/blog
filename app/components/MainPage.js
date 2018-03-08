@@ -18,9 +18,7 @@ class MainPage extends Component {
 					<div className={"row " + styles.mainRowStyling}>
 						<div className="col" ></div>
 						<div className={"col-8 " + styles.noPadding}>
-							<div className={"row " + styles.mainRowStyling}>
-								<PostList />
-							</div>
+							<PostList />
 						</div>
 						<div className="col"></div>
 					</div>
