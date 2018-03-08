@@ -28,8 +28,32 @@
 	position: absolute;
 	right: 0px;
 	height: 100%;
-	width: 20px;
-	background-color: gold;
+	width: 35px;
+}
+
+:local(.ratingButtons) {
+	display: block;
+	visibility: hidden;
+	text-align: center;
+}
+
+:local(.singlePostStyling:hover .ratingButtons) {
+	visibility: visible;
+}
+
+:local(.ratingAdd) {
+	height: 30%;
+	background-color: lime;
+}
+
+:local(.ratingComment) {
+	height: 40%;
+	background-color: cyan;
+}
+
+:local(.ratingRemove) {
+	height: 30%;
+	background-color: crimson;
 }
 
 :local(.noPadding) {
