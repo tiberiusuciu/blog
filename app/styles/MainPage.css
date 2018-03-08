@@ -10,7 +10,26 @@
 :local(.singlePostStyling) {
 	display: block;
 	width: 100%;
+	border-bottom: 1px solid black;
+	position: relative;
+}
+
+:local(.singlePostTextStyling) {
 	padding: 20px;
+	padding-right: 40px;
+	display: inline-block;
+	width: 100%;
+	text-align: justify;
+	/* margin-left:  */
+}
+
+:local(.singlePostRatingsStyling) {
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	height: 100%;
+	width: 20px;
+	background-color: gold;
 }
 
 :local(.noPadding) {
