@@ -17,7 +17,7 @@
 	border-top: 1px solid black;
 	border-left: 1px solid black;
 	border-right: 1px solid black;
-	margin-top: 150px;
+	margin-top: 30px;
 	min-height: 100vh;
 }
 
@@ -40,7 +40,7 @@
 
 :local(.navButton:hover) {
 	color: #0AF;
-	font-weight: bold;
+	/* font-weight: bold; */
 	background-color: #00000004;
 	cursor: pointer;
 }
@@ -51,9 +51,44 @@
 
 :local(.theWordOf) {
 	font-size: 12px;
+	font-style: italic;
 }
 
 :local(.tiberius) {
 	font-weight: bold;
 	font-size: 24px;
+}
+
+:local(.dashboardBlock) {
+	margin-top: 85px;
+	height: 350px;
+	/* background-color: gold; */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#30caf4+0,ff00ee+100 */
+	background: #30caf4; /* Old browsers */
+	background: -moz-linear-gradient(left, #30caf4 0%, #ff00ee 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #30caf4 0%,#ff00ee 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #30caf4 0%,#ff00ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30caf4', endColorstr='#ff00ee',GradientType=1 ); /* IE6-9 */
+	background: linear-gradient(270deg, #2896c9, #a80075, #004760);
+	background-size: 600% 600%;
+
+	-webkit-animation: Gradient 30s ease infinite;
+	-moz-animation: Gradient 30s ease infinite;
+	animation: Gradient 30s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
