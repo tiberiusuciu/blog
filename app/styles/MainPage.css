@@ -10,7 +10,7 @@
 :local(.singlePostStyling) {
 	display: block;
 	width: 100%;
-	height: 150px;
+	padding: 20px;
 }
 
 :local(.noPadding) {
