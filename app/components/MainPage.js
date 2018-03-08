@@ -12,13 +12,7 @@ class MainPage extends Component {
 			<div className={"row " + styles.mainRowStyling + " " + styles.mainBody}>
 				<NavigatorBar />
 				<div className={"col-12 " + styles.noPadding}>
-				<div className={"row " + styles.mainRowStyling + " " + styles.dashboardBlock}>
-					<div className={"col-12 " + styles.noPadding}>
-						<div className={"row " + styles.mainRowStyling}>
-							<DashBoard />
-						</div>
-					</div>
-				</div>
+					<DashBoard />
 				</div>
 				<div className={"col-12 " + styles.noPadding}>
 					<div className={"row " + styles.mainRowStyling}>
